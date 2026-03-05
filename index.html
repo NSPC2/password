@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="loading">Password Generator <br> <div></div></div>
+    <!-- Title -->
+    <div id="title">Password Generator</div>
+    <!-- MainBox -->
+    <main>
+        <p>Generator Password: </p>
+        <!-- Show Password -->
+        <div class="input">
+            <input type="text" name="" id="input" placeholder="Password Generator">
+            <button id="copy">Copy</button>
+        </div>
+        <!-- Password laters -->
+        <div id="pnumbers">
+            <label for="Number">Password Length:</label>
+            <input type="number" placeholder="4" id="Number">
+        </div>
+        <!-- Options -->
+        <div id="allowoption">
+            <input type="checkbox" name="" id="includeNum">
+            <label for="includeNum">Include Numbers</label>
+            <br><br>
+            <input type="checkbox" name="" id="includeSym">
+            <label for="includeSym">Include Symbols</label>
+        </div>
+        <!-- Generator Password -->
+         <div class="button">
+         <Button id="Generator">Generator Password</Button>
+         </div>
+    </main>
+    <!-- Script JS -->
+     <script src="script.js"></script>
+</body>
+
+</html>
